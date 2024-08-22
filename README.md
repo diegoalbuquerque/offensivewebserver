@@ -43,3 +43,7 @@ curl -T <FILE_TO_UPLOAD> http://<SERVER_IP>:<PORT>/<FILENAME_AT_DESTINATION>
 ```bash
 curl -X POST -H "File-Name: <FILENAME_AT_DESTINATION>" --data-binary @<FILE_TO_UPLOAD> http://<SERVER_IP>:<PORT>
 ```
+
+# Final Words
+Credits to the user Kremp from the F95Zone forum, who provided the base code that I adapted slightly. The original source code can be found at: https://f95zone.to/threads/small-python-script-to-run-local-case-insensitive-web-server.189695/
+
